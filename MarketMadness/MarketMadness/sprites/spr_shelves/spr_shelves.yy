@@ -8,13 +8,8 @@
     "VTile": false,
     "bbox_bottom": 106,
     "bbox_left": 0,
-<<<<<<< Updated upstream
     "bbox_right": 140,
     "bbox_top": 48,
-=======
-    "bbox_right": 139,
-    "bbox_top": 40,
->>>>>>> Stashed changes
     "bboxmode": 2,
     "colkind": 1,
     "coltolerance": 0,
