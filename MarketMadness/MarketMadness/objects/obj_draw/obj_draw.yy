@@ -5,12 +5,12 @@
     "name": "obj_draw",
     "eventList": [
         {
-            "id": "24f5499b-3c81-48da-b8e8-2ba0f160045b",
+            "id": "d9e3d979-e4eb-42f6-979d-053209fb0a78",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 64,
             "eventtype": 8,
             "m_owner": "a91fe74e-caa7-4b71-9b4b-e4766e8100e5"
         }
