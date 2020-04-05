@@ -7,9 +7,9 @@
     "HTile": false,
     "VTile": false,
     "bbox_bottom": 967,
-    "bbox_left": 124,
-    "bbox_right": 703,
-    "bbox_top": 368,
+    "bbox_left": 64,
+    "bbox_right": 895,
+    "bbox_top": 112,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -29,11 +29,33 @@
             },
             "images": [
                 {
-                    "id": "849dd101-01ed-4233-b5ee-b08a88567199",
+                    "id": "4b5779fd-7757-42bc-b344-e6b1b50d3024",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "4e90026f-80c0-4e11-a22f-0ed6e6199b79",
-                    "LayerId": "6df14fcf-843b-49d9-b96d-2f403d6bfc26"
+                    "LayerId": "76c49aa3-1763-4a8c-8c09-93dc3fb1f9c5"
+                }
+            ]
+        },
+        {
+            "id": "7b69044b-1e48-4d56-84a7-94f17bdba322",
+            "modelName": "GMSpriteFrame",
+            "mvc": "1.0",
+            "SpriteId": "563e8ea1-cc87-45bb-b2b2-96c1b1a7b1b8",
+            "compositeImage": {
+                "id": "793227f4-49ad-4b9f-8d41-14f326de5837",
+                "modelName": "GMSpriteImage",
+                "mvc": "1.0",
+                "FrameId": "7b69044b-1e48-4d56-84a7-94f17bdba322",
+                "LayerId": "00000000-0000-0000-0000-000000000000"
+            },
+            "images": [
+                {
+                    "id": "9662672a-ebf7-43c4-acc6-54413f3a0779",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "7b69044b-1e48-4d56-84a7-94f17bdba322",
+                    "LayerId": "76c49aa3-1763-4a8c-8c09-93dc3fb1f9c5"
                 }
             ]
         }
@@ -43,13 +65,13 @@
     "height": 1000,
     "layers": [
         {
-            "id": "6df14fcf-843b-49d9-b96d-2f403d6bfc26",
+            "id": "76c49aa3-1763-4a8c-8c09-93dc3fb1f9c5",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "563e8ea1-cc87-45bb-b2b2-96c1b1a7b1b8",
             "blendMode": 0,
             "isLocked": false,
-            "name": "Layer 1 (2)",
+            "name": "default",
             "opacity": 100,
             "visible": true
         }
