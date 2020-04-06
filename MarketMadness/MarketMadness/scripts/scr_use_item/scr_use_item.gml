@@ -1,12 +1,36 @@
-var item = argument0;
-//var return_text = "";
-var pos = ds_list_find_index(bag_content, item) 
+var item = argument0; 
+pos = ds_list_find_index(bag_content, item);
 if (pos != -1) {
-	ds_list_delete(bag_content, pos);
-	temp_text = "Placed " + item;
-	instance_create_layer(x,y,"Instances", obj_temp_text);
+ds_list_delete(bag_content, pos);
 }
-else {
-	temp_text = "Out of " + item + "s";
-	instance_create_layer(x,y,"Instances", obj_temp_text);
+
+if(item=="Apple"){
+instance_create_layer(x, y-74, "Items", obj_apple)
+}
+
+if(item=="Banana"){
+instance_create_layer(x, y-74, "Items", obj_banana)
+}
+
+if(item=="Bread"){
+instance_create_layer(x, y-74, "Items", obj_bread)
+}
+
+if(item=="Cheese"){
+instance_create_layer(x, y-74, "Items", obj_cheese)
+}
+
+if(item=="Pear"){
+instance_create_layer(x, y-74, "Items", obj_pear)
+}
+
+if(item=="Toiletpaper"){
+instance_create_layer(x, y-74, "Items", obj_toiletpaper)
+}
+
+if(item=="Spaghetti"){
+instance_create_layer(x, y-74, "Items", obj_spaghetti)
+}
+if(item==undefined){
+show_message("Please select an item")
 }
