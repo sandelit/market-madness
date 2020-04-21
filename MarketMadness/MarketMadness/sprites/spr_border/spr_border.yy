@@ -2,7 +2,7 @@
     "id": "c9732d0c-9cd0-4e78-ae4e-e8311ed85929",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite28",
+    "name": "spr_border",
     "For3D": false,
     "HTile": false,
     "VTile": false,

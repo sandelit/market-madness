@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-dir = choose(0,90,180,270);
-spd = 1;
-alarm[0] = irandom_range(60,180);
+if(!place_meeting(x, y, obj_item)){
+	is_empty = true;
+	
+}
