@@ -3,34 +3,76 @@ pos = ds_list_find_index(bag_content, item);
 if (pos != -1) {
 ds_list_delete(bag_content, pos);
 }
+nearest_shelf = instance_nearest(obj_player.x, obj_player.y, obj_shelves);
 
-if(item=="Apple"){
-instance_create_layer(x, y-74, "Items", obj_apple)
-}
+if (distance_to_object(nearest_shelf) < 50) {
+	if(nearest_shelf.is_empty) {
+		
+		if(item=="Apple"){
+			var nearest_apple = instance_nearest(obj_player.x, obj_player.y, obj_apple);
+			if (distance_to_object(nearest_apple) < 50) {
+				nearest_apple.image_index = 0;
+				nearest_shelf.is_empty = false;
+			}
+		}
 
-if(item=="Banana"){
-instance_create_layer(x, y-74, "Items", obj_banana)
-}
+		if(item=="Banana"){
+			var nearest_banana = instance_nearest(obj_player.x, obj_player.y, obj_banana);
+			if (distance_to_object(nearest_banana) < 50) {
+				nearest_banana.image_index = 0;
+				nearest_shelf.is_empty = false;
+			}
+		}
 
-if(item=="Bread"){
-instance_create_layer(x, y-74, "Items", obj_bread)
-}
+		if(item=="Bread"){
+			var nearest_bread = instance_nearest(obj_player.x, obj_player.y, obj_bread);
+			if (distance_to_object(nearest_bread) < 50) {
+				nearest_bread.image_index = 0;
+				nearest_shelf.is_empty = false;
+			}
+		}
 
-if(item=="Cheese"){
-instance_create_layer(x, y-74, "Items", obj_cheese)
-}
+		if(item=="Cheese"){
+			var nearest_cheese = instance_nearest(obj_player.x, obj_player.y, obj_cheese);
+			if (distance_to_object(nearest_cheese) < 50) {
+				nearest_cheese.image_index = 0;
+				nearest_shelf.is_empty = false;
+			}
+		}
 
-if(item=="Pear"){
-instance_create_layer(x, y-74, "Items", obj_pear)
-}
+		if(item=="Pear"){
+			var nearest_pear = instance_nearest(obj_player.x, obj_player.y, obj_pear);
+			if (distance_to_object(nearest_pear) < 50) {
+				nearest_pear.image_index = 0;
+				nearest_shelf.is_empty = false;
+			}
+		}
 
-if(item=="Toiletpaper"){
-instance_create_layer(x, y-74, "Items", obj_toiletpaper)
-}
+		if(item=="Toiletpaper"){
+			var nearest_toiletpaper = instance_nearest(obj_player.x, obj_player.y, obj_toiletpaper);
+			if (distance_to_object(nearest_toiletpaper) < 50) {
+				nearest_toiletpaper.image_index = 0;
+				nearest_shelf.is_empty = false;
+			}
+		}
 
-if(item=="Spaghetti"){
-instance_create_layer(x, y-74, "Items", obj_spaghetti)
+		if(item=="Spaghetti"){
+			var nearest_spaghetti = instance_nearest(obj_player.x, obj_player.y, obj_spaghetti);
+			if (distance_to_object(nearest_spaghetti) < 50) {
+				nearest_spaghetti.image_index = 0;
+				nearest_shelf.is_empty = false;
+			}
+		}
+		
+		if(item==undefined){
+		show_message("Please select an item")
+		}
+		
+	}
+	else {
+		show_message("shelf not empty!");
+	}
 }
-if(item==undefined){
-show_message("Please select an item")
+else {
+	show_message("not close enough");
 }
