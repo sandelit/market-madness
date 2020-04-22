@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_banana_storage",
     "eventList": [
-        
+        {
+            "id": "010b1c20-2559-4ddb-806a-b00dfbda8997",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "eb0000d5-5bcb-4ff6-8aff-82ddef98db96"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_bread_storage",
     "eventList": [
-        
+        {
+            "id": "f9918e66-6d8d-4b8a-a163-1abe5374c8e3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "93cd7494-04f5-4ee2-98bf-d14a0ee30065"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

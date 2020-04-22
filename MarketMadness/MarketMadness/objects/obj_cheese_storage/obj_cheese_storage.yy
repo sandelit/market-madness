@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_cheese_storage",
     "eventList": [
-        
+        {
+            "id": "b28f22f2-5690-47f6-b6f8-129801ad93bb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "9d1199b0-442a-4085-8815-2e76a64d0679"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

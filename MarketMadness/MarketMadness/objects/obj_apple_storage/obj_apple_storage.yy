@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_apple_storage",
     "eventList": [
-        
+        {
+            "id": "accc8e56-fafe-44df-80fd-7cbd62d5b289",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "8881f8e4-63bc-48cf-972d-195bfe94e401"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

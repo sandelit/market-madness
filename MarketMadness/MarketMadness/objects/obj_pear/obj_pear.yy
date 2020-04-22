@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_pear",
     "eventList": [
-        
+        {
+            "id": "b22439de-107b-43b9-9a8d-4992ca253545",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "17788662-370f-41b0-8bd3-7833967728fe"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

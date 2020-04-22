@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_spaghetti_storage",
     "eventList": [
-        
+        {
+            "id": "7466c51e-503b-487c-99f5-109d3e9e7688",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "f9e3d360-651d-4226-a029-12dc41903558"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
