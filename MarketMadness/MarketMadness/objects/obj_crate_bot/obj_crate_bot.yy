@@ -2,7 +2,7 @@
     "id": "6d248327-a8e4-4baf-ab74-658b3a8769b0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_crate",
+    "name": "obj_crate_bot",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": true,
-    "spriteId": "c0e215a7-d488-4768-a1c3-2e9d0985f084",
+    "spriteId": "7c691799-df90-48a6-a8ff-8c57df54dfe2",
     "visible": true
 }
