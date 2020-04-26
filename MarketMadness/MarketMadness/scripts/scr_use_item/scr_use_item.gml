@@ -13,6 +13,7 @@ if (distance_to_object(nearest_shelf) < 50) {
 				item_place = true;
 				nearest_apple.image_index = 0;
 				nearest_shelf.is_empty = false;
+				score += 100;
 			}
 		}
 
@@ -22,6 +23,7 @@ if (distance_to_object(nearest_shelf) < 50) {
 				item_place = true;
 				nearest_banana.image_index = 0;
 				nearest_shelf.is_empty = false;
+				score += 100;
 			}
 		}
 
@@ -31,6 +33,7 @@ if (distance_to_object(nearest_shelf) < 50) {
 				item_place = true;
 				nearest_bread.image_index = 0;
 				nearest_shelf.is_empty = false;
+				score += 100;
 			}
 		}
 
@@ -40,6 +43,7 @@ if (distance_to_object(nearest_shelf) < 50) {
 				item_place = true;
 				nearest_cheese.image_index = 0;
 				nearest_shelf.is_empty = false;
+				score += 100;
 			}
 		}
 
@@ -49,6 +53,7 @@ if (distance_to_object(nearest_shelf) < 50) {
 				item_place = true;
 				nearest_pear.image_index = 0;
 				nearest_shelf.is_empty = false;
+				score += 100;
 			}
 		}
 
@@ -58,6 +63,7 @@ if (distance_to_object(nearest_shelf) < 50) {
 				item_place = true;
 				nearest_toiletpaper.image_index = 0;
 				nearest_shelf.is_empty = false;
+				score += 100;
 			}
 		}
 
@@ -67,6 +73,7 @@ if (distance_to_object(nearest_shelf) < 50) {
 				item_place = true;
 				nearest_spaghetti.image_index = 0;
 				nearest_shelf.is_empty = false;
+				score += 100;
 			}
 		}
 		

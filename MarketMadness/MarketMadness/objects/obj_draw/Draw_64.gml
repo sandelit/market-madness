@@ -1,4 +1,5 @@
 with (obj_player){
+draw_text(20,20, "SCORE: " + string(score));
 var ypos = 35;
 var xpos = 35;
 var size = ds_list_size(bag_content);

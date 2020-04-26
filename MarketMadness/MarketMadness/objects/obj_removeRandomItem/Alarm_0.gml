@@ -10,6 +10,7 @@ if (randomObj == 1){
 	apple.image_index = 1; 
 	apple_shelf = instance_nearest(apple.x, apple.y, obj_shelves);
 	apple_shelf.is_empty = true;
+	
 }
 
 if (randomObj == 2){
@@ -19,6 +20,7 @@ if (randomObj == 2){
 	banana.image_index = 1; 
 	banana_shelf = instance_nearest(banana.x, banana.y, obj_shelves);
 	banana_shelf.is_empty = true;
+	
 }
 if (randomObj == 3){
 	amount = instance_number(obj_toiletpaper);
@@ -27,6 +29,7 @@ if (randomObj == 3){
 	toiletpaper.image_index = 1;
 	toiletpaper_shelf = instance_nearest(toiletpaper.x, toiletpaper.y, obj_shelves);
 	toiletpaper_shelf.is_empty = true;
+	
 }
 if (randomObj == 4){
 	amount = instance_number(obj_pear);
@@ -35,6 +38,7 @@ if (randomObj == 4){
 	pear.image_index = 1; 
 	pear_shelf = instance_nearest(pear.x, pear.y, obj_shelves);
 	pear_shelf.is_empty = true;
+	
 }
 if (randomObj == 5){
 	amount = instance_number(obj_spaghetti);
@@ -43,6 +47,7 @@ if (randomObj == 5){
 	spaghetti.image_index = 1; 
 	spaghetti_shelf = instance_nearest(spaghetti.x, spaghetti.y, obj_shelves);
 	spaghetti_shelf.is_empty = true;
+	
 }
 if (randomObj == 6){
 	amount = instance_number(obj_bread);
@@ -51,6 +56,7 @@ if (randomObj == 6){
 	bread.image_index = 1; 
 	bread_shelf = instance_nearest(bread.x, bread.y, obj_shelves);
 	bread_shelf.is_empty = true;
+	
 }
 if (randomObj == 7){
 	amount = instance_number(obj_cheese);
@@ -59,4 +65,5 @@ if (randomObj == 7){
 	cheese.image_index = 1; 
 	cheese_shelf = instance_nearest(cheese.x, cheese.y, obj_shelves);
 	cheese_shelf.is_empty = true;
+	
 }
