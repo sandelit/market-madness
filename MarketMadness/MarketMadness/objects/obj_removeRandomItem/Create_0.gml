@@ -3,4 +3,4 @@
 randomize();
 randomObj = 0;
 restartTimer = 0;
-alarm[0] = room_speed * 15;
+alarm[0] = room_speed * 5;
