@@ -6,4 +6,7 @@ if (size <=4) {
 	temp_text = "Picked up " + item;
 	instance_create_layer(x,y,"Instances", obj_temp_text);
 	instance_destroy(other);
+	
 }
+
+
