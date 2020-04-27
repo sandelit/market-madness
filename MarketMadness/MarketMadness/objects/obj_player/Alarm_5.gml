@@ -1,0 +1,1 @@
+instance_create_layer(spaghetti_x, spaghetti_y, "items_bot" ,obj_spaghetti_storage);

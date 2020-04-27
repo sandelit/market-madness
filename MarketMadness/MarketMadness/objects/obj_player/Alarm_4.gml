@@ -1,0 +1,1 @@
+instance_create_layer(pear_x, pear_y, "Items" ,obj_pear_storage);
